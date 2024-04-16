@@ -1,6 +1,7 @@
 # Cloud Three-Tier Architecture Deployment using Terraform
 
 This repository contains the Terraform code for deploying a three-tier architecture on AWS cloud. The architecture consists of three layers: Presentation layer, Application layer, and Data layer. It leverages various AWS services including ALB (Application Load Balancer), ASG (Auto Scaling Group), VPC (Virtual Private Cloud) and its components, EC2 (Elastic Compute Cloud), CloudWatch for monitoring, and RDS (Relational Database Service).
+<br/><br/>
 
 ## Architecture Overview
 
@@ -13,6 +14,7 @@ The three-tier architecture is structured as follows:
 3. **Data Layer**: This layer manages the storage and retrieval of data. It includes Amazon RDS, a managed relational database service, providing scalable and reliable databases.
 
 ![Architecture Diagram](3_TIER_DIA.png)
+<br/><br/>
 
 ## Terraform Modules
 
@@ -27,6 +29,7 @@ The Terraform code is organized into modules for better maintainability and reus
 4. **EC2 Module**: Defines individual EC2 instances with specified configurations, such as instance type, AMI, and security groups.
 
 5. **RDS Module**: Sets up the Relational Database Service, configuring database engine, instance type, storage, and backup options.
+<br/><br/>
 
 ## Usage
 
@@ -52,15 +55,17 @@ To deploy the three-tier architecture using Terraform, follow these steps:
 
 7. **Accessing the Application**:
    Once the deployment is complete, access the application through the ALB DNS name.
-
+<br/><br/>
 
 ## Monitoring
 
 CloudWatch is utilized for monitoring and logging. Key metrics such as CPU utilization, network traffic, and database performance can be monitored through the AWS Management Console or programmatically using CloudWatch APIs.
+<br/><br/>
 
 ## Contributing
 
 Contributions to this project are welcome! Feel free to open issues or pull requests with suggestions, bug fixes, or improvements.
+<br/><br/>
 
 ## License
 
