@@ -12,7 +12,8 @@ The three-tier architecture is structured as follows:
 2. **Application Layer**: The application logic resides in this layer, deployed on EC2 instances within Auto Scaling Groups (ASG). ASG ensures high availability and scalability by automatically adjusting the number of instances based on demand.
 
 3. **Data Layer**: This layer manages the storage and retrieval of data. It includes Amazon RDS, a managed relational database service, providing scalable and reliable databases.
-
+   
+<br/><br/>
 <img src="3_TIER_DIA.png" alt="Architecture Diagram" width="600">
 <br/><br/>
 
