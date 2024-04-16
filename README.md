@@ -13,7 +13,7 @@ The three-tier architecture is structured as follows:
 
 3. **Data Layer**: This layer manages the storage and retrieval of data. It includes Amazon RDS, a managed relational database service, providing scalable and reliable databases.
 
-![Architecture Diagram](3_TIER_DIA.png)
+<img src="3_TIER_DIA.png" alt="Architecture Diagram" width="600">
 <br/><br/>
 
 ## Terraform Modules
