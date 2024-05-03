@@ -60,16 +60,16 @@ To deploy the three-tier architecture using Terraform, follow these steps:
 
 ## Monitoring
 
-CloudWatch is utilized for monitoring and logging. Key metrics such as CPU utilization, network traffic, and database performance can be monitored through the AWS Management Console or programmatically using CloudWatch APIs.
+CloudWatch serves as the primary tool for both monitoring and logging activities. Through CloudWatch, operators gain access to crucial performance metrics, including CPU utilization, network traffic, and database performance, allowing for real-time monitoring of system health. These metrics can be easily accessed and analyzed either through the intuitive AWS Management Console or programmatically using CloudWatch APIs, providing flexibility in monitoring and facilitating proactive management of the infrastructure.
 <br/><br/>
 
 ## Contributing
 
-Contributions to this project are welcome! Feel free to open issues or pull requests with suggestions, bug fixes, or improvements.
+Contributions are encouraged and valued for this project! Whether it's suggesting improvements, reporting bugs, or submitting code changes, feel free to engage by opening issues or pull requests. Your contributions play a vital role in enhancing the project's functionality and overall quality.
 <br/><br/>
 
 ## License
 
-This project is licensed under the MIT License.
+This project is released under the permissive MIT License, granting users the freedom to use, modify, and distribute the software for any purpose. The MIT License ensures minimal restrictions on usage, fostering collaboration and adoption within the community.
 
 
