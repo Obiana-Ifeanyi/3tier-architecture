@@ -34,28 +34,11 @@ The Terraform code is organized into modules for better maintainability and reus
 
 ## Usage
 
-To deploy the three-tier architecture using Terraform, follow these steps:
+To ensure smooth deployment of the three-tier architecture with Terraform, begin by cloning the repository using the command git clone <repository-url>. It's essential to have AWS credentials set up with appropriate permissions for accessing cloud resources. After cloning, initialize Terraform in the project directory by executing terraform init.
 
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
+Before proceeding with deployment, it's advisable to execute terraform plan to preview the changes Terraform will enact. This step provides a detailed overview of the actions Terraform intends to take, including any resource creations, modifications, or deletions. Reviewing the plan ensures transparency and helps prevent unintended changes to the environment.
 
-2. **Configure AWS Credentials**:
-   Ensure that you have AWS credentials configured with appropriate permissions.
-
-3. **Initialize Terraform**:
-   ```bash
-   terraform init
-
-4. **Review and Modify Variables**:
-   Update variables in terraform.tfvars or provide values via command-line arguments as needed.
-
-5. **Deploy Infrastructure**:
-    ```bash
-   terraform apply
-
-7. **Accessing the Application**:
-   Once the deployment is complete, access the application through the ALB DNS name.
+Once you've reviewed and customized the variables in the terraform.tfvars file or provided values via command-line arguments, proceed with deploying the infrastructure using terraform apply. Upon completion of the deployment process, users can access the application through the provided Application Load Balancer (ALB) DNS name. This DNS name serves as the entry point for users, facilitating seamless usage and navigation of the deployed architecture.
 <br/><br/>
 
 ## Monitoring
